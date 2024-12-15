@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- <div class="w-75 mx-auto my-5 border">
+        <img src="images/1.jpg" class="w-100" id="imagedemo" alt="">
+        <div class="item d-flex">
+            <img src="images/2.jpg" class="w-25" alt="">
+            <img src="images/3.jpg" class="w-25" alt="">
+            <img src="images/4.jpg" class="w-25" alt="">
+            <img src="images/1.jpg" class="w-25" alt="">
+
+        </div>
+    </div> -->
+
+
+
+    <!-- <div class="container-fluid py-5">
+        <div class="row g-3  justify-content-center" id="demo">
+           
+        </div>
+    </div> -->
+
+
+    <!-- <div class="w-75 mx-auto my-5">
+        <form>
+            <label for="username">enter your name</label>
+            <input type="text" id="username" class="form-control">
+            <label for="lastname">enter your lastname</label>
+            <input type="text" id="lastname" class="form-control">
+        </form>
+        <button onclick="welcome()" class="btn btn-info mt-2">send</button>
+        <button onclick="changecolor()" class="btn btn-info mt-2">changecolor</button>
+    </div>
+
+
+    <h2 id="demo" class="text-center"></h2> -->
+    <div class="container py-5 ">
+        <div class="mb-3">
+            <form>
+                <label for="productName">product Name</label>
+                <input type="text" class="form-control" name="" id="productName">
+
+            </form>
+        </div>
+        <div class="mb-3">
+            <form>
+                <label for="productprice">productprice</label>
+                <input type="number" class="form-control" productprice="" id="productprice">
+
+            </form>
+        </div>
+        <div class="mb-3">
+            <form>
+                <label for="productimage">productimage</label>
+                <input type="file" class="form-control " productimage="" id="productimage">
+
+            </form>
+        </div>
+        <div class="mb-3">
+            <form>
+                <label for="productcategory">productcategory</label>
+                <select class="form-select" id="productcategory">
+                    <option value="mobile">mobile</option>
+                    <option value="tv">tv</option>
+                    <option value="fashoin">fashoin</option>
+                    <option value="laptop">laptop</option>
+                </select>
+
+            </form>
+
+        </div>
+        <div class="form-check form-switch mb-3">
+            <input class="form-check-input" type="checkbox" role="switch" id="productsale">
+            <label class="form-check-label" for="productsale">productsale</label>
+        </div>
+        <div class="mb-3">
+            <form>
+                <label for="productdescription">productdescription</label>
+                <textarea class="form-control" productdescription="" id="productdescription"></textarea>
+        </div>
+        <button onclick="addproduct()" type="button" class="btn btn-outline-info">add proudct</button>
+        <button onclick=" clearform()" type="button" class="btn btn-outline-danger">clear form </button>
+        </form>
+        <input id="searchinput" onkeyup="search()" type="text" class="my-5 mx-auto form-control w-50"
+            placeholder="search......." name="">
+
+        <div class="row g-3" id="myrow">
+            <!-- <div class="col-md-3 py-3 ">
+                <div class="text-center border border-info">
+                    <img src="images/img2.gif" class="w-100" alt="">
+                    <h5>proudct name</h5>
+                    <p class="text-secondary">desc</p>
+                    <p class="text-secondary">cate</p>
+                    <p class="text-danger">sale</p>
+                    <button type="button" class="btn btn-outline-info py-2">updata</button>
+                    <button type="button" class="btn btn-outline-danger py-2">delete</button>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <!-- <table class="table w-75 mx-auto text-center table-bordered-danger table-striped-columns table-dark">
+        <thead>
+            <tr>
+                <th>index</th>
+                <th>product image</th>
+                <th>product name</th>
+                <th>product price</th>
+                <th>product category</th>
+                <th>product sale</th>
+                <th>product description</th>
+                <th>updata</th>
+                <th>delete</th>
+            </tr>
+        </thead>
+        <tbody id="mydata">
+
+        </tbody>
+      
+    </table> -->
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index2.js"></script>
+</body>
+
+</html>
